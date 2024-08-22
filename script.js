@@ -23,5 +23,6 @@ function strip(bandName) {
 
 // Sort the bands array
 const sortedBands = bands.sort((a, b) => strip(a).localeCompare(strip(b)));
+const bandList = document.getElementById('bands'); // Updated to match the new id
 
 // Populate
